@@ -30,23 +30,30 @@
         }
         .body {
             position: relative;
-            height: 100vh;
+            height: 100%;
             background-color: #77DA5B;
             display: flex;
             flex-wrap: wrap;
             justify-content: space-evenly;
             .card {
-                height: 200px;
-                width: 350px;
+                height: 180px;
+                width: 450px;
                 display: flex;
-                align-items: center;
-                justify-content: space-around;
+                justify-content: space-between;
                 border: 2px solid black;
                 border-radius: 20px;
+                padding-right: 20px;
+                margin-bottom: 3px;
+                &:hover {
+                    background-color: #add3e9;
+                }
+                .card-text {
+                    text-align: center;
+                }
                 .card-img {
-                    border: 1px solid black;
-                    height: 80%;
-                    width: 50%;
+                    height: 100%;
+                    width: 190px;
+                    border-radius: 20px;
                     }
             }
         }
