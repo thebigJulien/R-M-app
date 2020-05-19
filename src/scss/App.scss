@@ -1,0 +1,54 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#root {
+    .App {
+        height: 100%;
+        .navigation {
+            height: 8vh;
+            font-size: 2.7rem;
+            background-color: #f7f7f7;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            .img-nav {
+                height: 100%;
+                width: 100px;
+                padding-top: 10px;
+                transform: translateY(36px);
+                transition: transform 1s ease-in-out;
+                &:hover {
+                    transform: translateY(3px);
+                }
+                img {
+                    height: 100px;
+                }
+            }
+        }
+        .body {
+            position: relative;
+            height: 100vh;
+            background-color: #77DA5B;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            .card {
+                height: 200px;
+                width: 350px;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                border: 2px solid black;
+                border-radius: 20px;
+                .card-img {
+                    border: 1px solid black;
+                    height: 80%;
+                    width: 50%;
+                    }
+            }
+        }
+    }
+}
