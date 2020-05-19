@@ -7,7 +7,7 @@ const Card = () => {
 console.log(data);
     let eachChar = data.map((char) => 
         <div className="card">
-            <img src= { char.image } className="card-img"></img>
+            <img className="card-img" src= { char.image } alt="face"></img>
             <div className="card-text">
                 <h2>{ char.name }</h2>
                 <p>SPECIES: { char.species }</p>
