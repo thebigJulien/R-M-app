@@ -9,7 +9,7 @@ const Header = () => {
             <img src={Scary} alt="Scarry Terry"></img>
             </div>
             <div>
-                <p>BIIIIIIIITCH!</p>
+                <p>You can run, but you can't hide!</p>
             </div>
         </nav>
     )
