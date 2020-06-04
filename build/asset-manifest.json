@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "./static/css/main.534ef14a.chunk.css",
+    "main.js": "./static/js/main.7ba228ad.chunk.js",
+    "main.js.map": "./static/js/main.7ba228ad.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.a70816e4.js",
+    "runtime-main.js.map": "./static/js/runtime-main.a70816e4.js.map",
+    "static/js/2.3d771e4a.chunk.js": "./static/js/2.3d771e4a.chunk.js",
+    "static/js/2.3d771e4a.chunk.js.map": "./static/js/2.3d771e4a.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.1e9a3d9bc184356aec47bf3d33f1a21a.js": "./precache-manifest.1e9a3d9bc184356aec47bf3d33f1a21a.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.534ef14a.chunk.css.map": "./static/css/main.534ef14a.chunk.css.map",
+    "static/js/2.3d771e4a.chunk.js.LICENSE.txt": "./static/js/2.3d771e4a.chunk.js.LICENSE.txt",
+    "static/media/scary-t.png": "./static/media/scary-t.a3a06e95.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a70816e4.js",
+    "static/js/2.3d771e4a.chunk.js",
+    "static/css/main.534ef14a.chunk.css",
+    "static/js/main.7ba228ad.chunk.js"
+  ]
+}
